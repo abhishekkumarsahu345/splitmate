@@ -1,0 +1,62 @@
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Node ──────────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+
+# ── Environment / secrets — NEVER commit these ────────────────────────────────
+.env
+.env.*
+!.env.example        # allow a template with no real values
+
+# ── Build output ──────────────────────────────────────────────────────────────
+dist/
+build/
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.launch
+.settings/
+.project
+.classpath
+.c9/
+
+# VS Code — commit shared settings/tasks/extensions if you want; ignore personal
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ── Kiro (AI IDE) — entire folder is local tooling, not for GitHub ────────────
+.kiro/
+
+# ── Root folder (local spec/design docs, not source code) ─────────────────────
+root/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Test / coverage ───────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ── Temp ──────────────────────────────────────────────────────────────────────
+.temp/
+.tmp/
+*.pid
+*.seed
+*.pid.lock

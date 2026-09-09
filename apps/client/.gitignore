@@ -1,0 +1,38 @@
+# ── Build output ──────────────────────────────────────────────────────────────
+dist/
+
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Environment / secrets — NEVER commit ──────────────────────────────────────
+# VITE_API_URL is safe to document, but never commit real secrets
+.env
+.env.*
+!.env.example
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.idea/
+*.sublime-workspace
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ── Vite ──────────────────────────────────────────────────────────────────────
+# Vite cache (local only)
+.vite/
+
+# ── TypeScript build info ─────────────────────────────────────────────────────
+tsconfig.tsbuildinfo
